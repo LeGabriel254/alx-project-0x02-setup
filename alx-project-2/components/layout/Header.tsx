@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-export const Header: React.FC = () => {
+const Header: React.FC = () => {
   return (
     <div>
  <li>
