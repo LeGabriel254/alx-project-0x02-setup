@@ -42,3 +42,15 @@ export default function PostsPage() {
         </div>
     );
 }
+
+// Fetch posts at build time
+export async function getStaticProps() {
+    const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+    const data = await response.json();
+
+    return {
+        props: {
+            initialPosts: data.slice(0, 10)
+        },
+    };
+}
