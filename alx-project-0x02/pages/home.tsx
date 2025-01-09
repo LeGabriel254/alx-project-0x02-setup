@@ -1,9 +1,11 @@
 import React from 'react'
 import Card from '@/components/common/Card';
+import Header from '@/components/layout/Header';
 
 const Home:React.FC = () => {
   return (
     <div className="p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <Header />
       <Card 
         title="Getting Started" 
         content="Learn how to set up your project and start building amazing things." 
