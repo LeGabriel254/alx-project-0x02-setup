@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Header: React.FC = () => {
+export const Header: React.FC = () => {
     return (
         <header className="bg-gray-800 p-4">
             <nav className="container mx-auto">
