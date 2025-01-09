@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
-import  Header from "@/components/layout/Header";
-import Card from "@/components/common/Card";
+import  Header from "@/component/layout/Header";
+import Card from "@/component/common/Card";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
